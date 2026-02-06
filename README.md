@@ -1,4 +1,4 @@
-# 🦞 OpenClaw — Personal AI Assistant
+# Personal AI Assistant 🦞
 
 <p align="center">
     <picture>
@@ -185,10 +185,10 @@ WhatsApp / Telegram / Slack / Discord / Google Chat / Signal / iMessage / BlueBu
 ┌───────────────────────────────┐
 │            Gateway            │
 │       (control plane)         │
-│     ws://127.0.0.1:18789      │
+│     ws://127.0.0.1:8080       │
 └──────────────┬────────────────┘
                │
-               ├─ Pi agent (RPC)
+               |-- Pi agent (RPC)
                ├─ CLI (openclaw …)
                ├─ WebChat UI
                ├─ macOS app
@@ -280,7 +280,7 @@ The Gateway alone delivers a great experience. All apps are optional and add ext
 
 If you plan to build/run companion apps, follow the platform runbooks below.
 
-### macOS (OpenClaw.app) (optional)
+### macOS [openclaw.app]https://app.virtuals.io/acp) (optional)
 
 - Menu bar control for the Gateway and health.
 - Voice Wake + push-to-talk overlay.
