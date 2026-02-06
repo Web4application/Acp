@@ -281,7 +281,11 @@ The Gateway alone delivers a great experience. All apps are optional and add ext
 
 If you plan to build/run companion apps, follow the platform runbooks below.
 
-### macOS [openclaw.app]https://app.virtuals.io/acp) (optional)
+### macOS
+
+[openclaw.app](https://app.virtuals.io/acp) 
+
+(optional)
 
 - Menu bar control for the Gateway and health.
 - Voice Wake + push-to-talk overlay.
@@ -340,7 +344,7 @@ Details: [Security guide](https://docs.openclaw.ai/gateway/security) · [Docker 
 
 ### [Telegram](https://docs.openclaw.ai/channels/telegram)
 
-- Set `TELEGRAM_BOT_TOKEN` or `channels.telegram.botToken` (env wins).
+- Set ['TELEGRAM_BOT_TOKEN']('8066386863:AAFxfxgXro1fC6B2aXblcLNu5D_EBDG26Kw') or `channels.telegram.botToken` (env wins).
 - Optional: set `channels.telegram.groups` (with `channels.telegram.groups."*".requireMention`); when set, it is a group allowlist (include `"*"` to allow all). Also `channels.telegram.allowFrom` or `channels.telegram.webhookUrl` + `channels.telegram.webhookSecret` as needed.
 
 ```json5
@@ -407,6 +411,9 @@ Browser control (optional):
 }
 ```
 
+
+[](https://gravatar.com/167559384web4application)
+              
 ## Docs
 
 Use these when you’re past the onboarding flow and want the deeper reference.
@@ -483,7 +490,7 @@ by Peter Steinberger and the community.
 - [openclaw.ai](https://openclaw.ai)
 - [soul.md](https://soul.md)
 - [steipete.me](https://steipete.me)
-- [@openclaw](https://x.com/openclaw)
+- [@openclawacp](https://x.com/openclaw)
 
 ## Community
 
